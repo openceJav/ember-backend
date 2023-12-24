@@ -1,0 +1,12 @@
+spring:
+  data:
+      mongodb:
+        username: root
+        password: secret
+        host: localhost
+        port: 27017
+        database: ember_db
+        authentication-database: admin
+
+server:
+  port: 8088
