@@ -2,9 +2,9 @@ services:
   mongodb:
     image: 'mongo:latest'
     environment:
-      - 'MONGO_INITDB_DATABASE=mydatabase'
-      - 'MONGO_INITDB_ROOT_PASSWORD=secret'
-      - 'MONGO_INITDB_ROOT_USERNAME=root'
+      - 'MONGO_INITDB_DATABASE=mongodb+srv://admin:Nx1LS7D15svDqkfX@maincluster.hseyvba.mongodb.net/'
+      - 'MONGO_INITDB_ROOT_PASSWORD=Nx1LS7D15svDqkfX'
+      - 'MONGO_INITDB_ROOT_USERNAME=admin'
     ports:
       - '27017'
     volumes:
@@ -16,8 +16,8 @@ services:
     ports:
       - '8081:8081'
     environment:
-      - 'ME_CONFIG_MONGODB_ADMINUSERNAME=root'
-      - 'ME_CONFIG_MONGODB_ADMINPASSWORD=secret'
-      - 'ME_CONFIG_MONGODB_SERVER=mongodb'
+      - 'ME_CONFIG_MONGODB_ADMINUSERNAME=admin'
+      - 'ME_CONFIG_MONGODB_ADMINPASSWORD=Nx1LS7D15svDqkfX'
+      - 'ME_CONFIG_MONGODB_SERVER=mongodb+srv://admin:Nx1LS7D15svDqkfX@maincluster.hseyvba.mongodb.net/'
 volumes:
   mongo: {}
