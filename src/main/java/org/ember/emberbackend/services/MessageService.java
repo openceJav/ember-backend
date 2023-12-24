@@ -1,6 +1,7 @@
 package org.ember.emberbackend.services;
 
 import lombok.RequiredArgsConstructor;
+import org.ember.emberbackend.exceptions.RoomNotFoundException;
 import org.ember.emberbackend.repository.MessageRepository;
 import org.ember.emberbackend.models.Message;
 import org.springframework.stereotype.Service;
@@ -19,7 +20,7 @@ public class MessageService {
                 message.getSenderId(),
                 message.getRecipientId(),
                 true
-        ).orElseThrow(); // TODO: Create Custom Exception
+        ).orElseThrow(() -> new RoomNotFoundException("Room Not Found."));
         message.setChatId(chatId);
         repository.save(message);
 
