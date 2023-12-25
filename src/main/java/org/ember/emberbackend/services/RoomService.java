@@ -27,7 +27,7 @@ public class RoomService {
     }
 
     public String createChatId(String senderId, String recipientId) {
-        var chatId = IdGenerator.generateChatId(senderId, recipientId, 5);
+        var chatId = IdGenerator.generateChatId(senderId, recipientId);
 
         Room senderRecipient = Room.builder()
                 .chatId(chatId)

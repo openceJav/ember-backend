@@ -1,11 +1,11 @@
 spring:
   data:
       mongodb:
-        username: root
-        password: secret
-        host: localhost
+        username: admin
+        password: Nx1LS7D15svDqkfX
+        host: maincluster.hseyvba.mongodb.net
         port: 27017
-        database: ember_db
+        database: ember-db
         authentication-database: admin
 
 server:

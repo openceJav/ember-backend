@@ -28,7 +28,7 @@ public class IdGenerator {
 
     }
 
-    public static String generateChatId(String senderId, String recipientId, int defCount) {
+    public static String generateChatId(String senderId, String recipientId) {
         return String.format("RMCI:%s-%s", senderId, recipientId);
 
     }
