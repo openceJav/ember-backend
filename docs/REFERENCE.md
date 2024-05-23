@@ -1,3 +1,11 @@
 # Reference API Documentation
 
-**TODO**: Add API Documentation Here.
+## Websites to Visit
+- [Socket.io](https://socket.io/docs/v4/)
+- [Hibernate](https://hibernate.org/orm/)
+- [Spring](https://spring.io/)
+- [React](https://reactjs.org/)
+
+## Learning Resources
+
+**TODO**: Determine Learning Resources for Use.
