@@ -37,8 +37,6 @@
 </div>
 <br />
 
-
-
 ## Table of Contents
 
 ## About The Project
