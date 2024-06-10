@@ -14,11 +14,11 @@
     <br />
     <br />
     <a href="/url">View Demo</a>
-    ✧
+    ✱
     <a href="https://github.com/openceJav/ember-backend/issues">Report Bug</a>
-    ✧
+    ✱
     <a href="https://github.com/openceJav/ember-backend/issues">Request Feature</a>
-    ✧
+    ✱
     <a href="">Documentation</a>
   </p>
 </div>
