@@ -37,6 +37,9 @@
 </div>
 <br />
 
+> [!WARNING]
+> Ember-Socket is still currently under development and it not yet ready to be forked or used for any other purpose, as of now there is partial code that has been developed without proper testing and code optimization.  This repository is in tangent with another repository named Ember-Frontend which acts as the visual representation of the chat application.
+
 ## Table of Contents
 
 ## About The Project
